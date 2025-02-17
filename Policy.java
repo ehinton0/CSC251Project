@@ -23,8 +23,7 @@ public class Policy{
         this.age = age;
         this.smokingStatus = smokingStatus;
         this.height = height;
-<<<<<<< Updated upstream
-=======
+
         this.weight = weight;
         
         public Policy(int policyNumber, String providerName, String firstName, String lastName,
