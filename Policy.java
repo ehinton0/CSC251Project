@@ -23,4 +23,18 @@ public class Policy{
         this.age = age;
         this.smokingStatus = smokingStatus;
         this.height = height;
+<<<<<<< Updated upstream
+=======
+        this.weight = weight;
+        
+        public Policy(int policyNumber, String providerName, String firstName, String lastName,
+                  int age, String smokingStatus, double height, double weight) {
+        this.policyNumber = policyNumber;
+        this.providerName = providerName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.smokingStatus = smokingStatus;
+        this.height = height;
+>>>>>>> Stashed changes
         this.weight = weight;
