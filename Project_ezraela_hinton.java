@@ -18,7 +18,15 @@ public class Demo {
                 Policyholder policyholder = new Policyholder(firstName, lastName, age, smokingStatus, height, weight);
                 policies.(new Policy(policyNumber, providerName, policyholder));
             }
-      
+      public String toString() {
+        return "Policyholder’s First Name: " + firstName + "\n" +
+               "Policyholder’s Last Name: " + lastName + "\n" +
+               "Policyholder’s Age: " + age + "\n" +
+               "Policyholder’s Smoking Status: " + smokingStatus + "\n" +
+               "Policyholder’s Height: " + height + " inches\n" +
+               "Policyholder’s Weight: " + weight + " pounds\n" +
+               "Policyholder’s BMI: " + String.format("%.2f", getBMI());
+
             System.out.println("Error: File not found.");
         }
 
